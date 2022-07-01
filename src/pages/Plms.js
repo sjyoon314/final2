@@ -1,6 +1,13 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
+import Img01 from '../img/01.jpg';
+import Imglogo1 from '../img/logo1.jpg';
+import Imgmain1 from '../img/main1.jpg';
+import Imgmain2 from '../img/main2.jpg';
+import Imgmain3 from '../img/main3.jpg';
+import Imgmain4 from '../img/main4.jpg';
+import Imgmain5 from '../img/main5.jpg';
 
 function Plms() {
   const [mode, setMode] = useState(0);
@@ -35,8 +42,8 @@ function Plms() {
   }
   return (
     <div> 
-        <img src='/img/01.jpg' style={{position: 'absolute', top:'0%', left:'0%', width: '100%', height: '100'}} alt=''></img>
-        <Link to='/'><img src='/img/logo1.jpg' style={{position: 'absolute', top:'5%', left:'43%', width: '13%', height:'7%'}} alt=''/></Link>
+        <img src={Img01} style={{position: 'absolute', top:'0%', left:'0%', width: '100%', height: '100'}} alt=''></img>
+        <Link to='/'><img src={Imglogo1} style={{position: 'absolute', top:'5%', left:'43%', width: '13%', height:'7%'}} alt=''/></Link>
         <div style={{position: 'absolute', top: '15%', left: '33%', width: '33%', height:'55%', font: '나눔고딕', display: 'flex', flexFlow: 'column nowrap', justifyContent: 'space-between'}}>
           <div style={{height:'40%',display: 'flex', flexFlow: 'row nowrap', justifyContent: 'space-between', color: 'white'}}>
               <div style={{backgroundColor: 'rgb(21,72,133,0.9)', width:'70%'}}>
@@ -52,23 +59,23 @@ function Plms() {
               </div>
               <div style={{backgroundColor: 'rgb(169,129,71)', width:'27%', display:'flex', flexFlow: 'column nowrap', justifyContent:'space-between', paddingBottom:'20%'}}>
                 <Div1>
-                  <img src='/img/main1.jpg' style={{width:'13%', height:'100%', float:'left'}} alt=''/>
+                  <img src={Imgmain1} style={{width:'13%', height:'100%', float:'left'}} alt=''/>
                   <a href='https://ice.postech.ac.kr/' target='__blank' style={{textDecoration:'none', color:'white'}}>&nbsp;교육혁신센터</a>
                 </Div1>
                 <Div1>
-                  <img src='/img/main2.jpg' style={{width:'13%', height:'100%', float:'left'}} alt=''/>
+                  <img src={Imgmain2} style={{width:'13%', height:'100%', float:'left'}} alt=''/>
                   <a href='https://pams.postech.ac.kr/' target='__blank' style={{textDecoration:'none', color:'white'}}>&nbsp;PAMS</a>
                 </Div1>
                 <Div1>
-                  <img src='/img/main3.jpg' style={{width:'13%', height:'100%', float:'left'}} alt=''/>
+                  <img src={Imgmain3} style={{width:'13%', height:'100%', float:'left'}} alt=''/>
                   <a href='http://www.kmooc.kr/' target='__blank' style={{textDecoration:'none', color:'white'}}>&nbsp;K-MOOC</a>
                 </Div1>
                 <Div1>
-                  <img src='/img/main4.jpg' style={{width:'13%', height:'100%', float:'left'}} alt=''/>
+                  <img src={Imgmain4} style={{width:'13%', height:'100%', float:'left'}} alt=''/>
                   <a href='https://postech.edwith.org/' target='__blank' style={{textDecoration:'none', color:'white'}}>&nbsp;STAR-MOOC</a>
                 </Div1>
                 <Div1>
-                  <img src='/img/main5.jpg' style={{width:'13%', height:'100%', float:'left'}} alt=''/>
+                  <img src={Imgmain5} style={{width:'13%', height:'100%', float:'left'}} alt=''/>
                   <a href='https://library.postech.ac.kr/' target='__blank' style={{textDecoration:'none', color:'white'}}>&nbsp;도서관 포털</a>
                 </Div1>
               </div>
