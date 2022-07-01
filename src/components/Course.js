@@ -13,7 +13,7 @@ function Course(props){
     return(
         <DivC>
             <img src={ImgPguestIcon} style={{width:'60px', height:'60px'}} alt=''/>
-            <img src={ImgMCproperty1} style={{width:'80px', height:'75px', marginLeft:'15px'}}></img>
+            <img src={ImgMCproperty1} style={{width:'80px', height:'75px', marginLeft:'15px'}} alt=''></img>
             <div style={{display:'flex', flexFlow:'column nowrap', marginLeft:'10px', marginTop:'6px'}}>
                 <div style={{fontSize:'20px', fontWeight:'bold'}}>{stateImg}&nbsp;{props.clsName}</div>
                 <div style={{color:'grey', fontSize:'14px'}}>{props.profName}</div>

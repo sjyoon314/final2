@@ -14,7 +14,7 @@ function Message() {
             <div style={{display:'flex', flexFlow:'column nowrap', height:'1000px', width:'100%'}}>
                 <DivM>
                     <div style={{display:'flex', flexFlow:'row nowrap'}}>
-                        <Link to='/main/mypage'><img src={ImgChome} style={{width:'17px', height:'15px', marginTop:'19px'}}/></Link>
+                        <Link to='/main/mypage'><img src={ImgChome} style={{width:'17px', height:'15px', marginTop:'19px'}} alt=''/></Link>
                         <p style={{marginLeft:'10px', fontWeight:'bold', fontSize:'15   px'}}>/&nbsp;&nbsp;쪽지</p>
                     </div>
                     <div style={{borderTop:'solid lightgrey 1px', width:'97%'}}>

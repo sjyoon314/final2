@@ -11,7 +11,9 @@ import ImgM1 from '../img/M1.jpg';
 
 function MyPage(){
     const [viewmode, setViewmode] = useState(0);
+    if(viewmode===1){
 
+    }
     return(
         <>
             <Frame></Frame>
