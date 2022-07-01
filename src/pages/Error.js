@@ -1,13 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import Frame from '../components/Frame';
 import Footer from '../components/Footer';
-import Notice from '../components/Notice';
-import Course from '../components/Course';
 
 function Error(){
-    const [viewmode, setViewmode] = useState(0);
 
     return(
         <>
@@ -15,7 +12,7 @@ function Error(){
             <div style={{display:'flex', flexFlow:'column nowrap', height:'1000px', width:'100%'}}>
                 <Article>
                     <div>
-                        <Link to='/main/mypage'><img src='/img/Chome.png' style={{width:'17px', height:'15px', marginTop:'19px'}}/></Link>
+                        <Link to='/main/mypage'><img src='/img/Chome.png' style={{width:'17px', height:'15px', marginTop:'19px'}} alt=''/></Link>
                     </div>
                     <div style={{borderTop:'solid lightgrey 1px', width:'89%', marginTop:'1%'}}></div>
                     <div style={{width:'89%',height:'11%', marginTop:'2%', paddingLeft:'2%',backgroundColor:'rgb(248,215,218)', border:'solid rgb(245,198,203) 1px', color:'rgb(114,28,36)'}}>
