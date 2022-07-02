@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-import Frame from '../components/Frame';
-import Footer from '../components/Footer';
-import Notice from '../components/Notice';
-import Course from '../components/Course';
+import Frame from '../components/Frame.js';
+import Footer from '../components/Footer.js';
+import Notice from '../components/Notice.js';
+import Course from '../components/Course.js';
 import ImgVMIcon0 from '../img/VMIcon0.jpg';
 import ImgVMIcon1 from '../img/VMIcon1.jpg';
 import ImgM1 from '../img/M1.jpg';

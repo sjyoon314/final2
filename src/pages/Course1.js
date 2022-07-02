@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Header from '../components/Header';
+import Header from '../components/Header.js';
 import {Link} from 'react-router-dom';
 
 function Course1() {

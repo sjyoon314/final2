@@ -1,5 +1,5 @@
-import Frame from '../components/Frame';
-import Footer from '../components/Footer';
+import Frame from '../components/Frame.js';
+import Footer from '../components/Footer.js';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import ImgChome from '../img/Chome.png';

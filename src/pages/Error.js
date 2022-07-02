@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-import Frame from '../components/Frame';
-import Footer from '../components/Footer';
+import Frame from '../components/Frame.js';
+import Footer from '../components/Footer.js';
 import ImgChome from '../img/Chome.png';
 
 function Error(){

@@ -1,11 +1,11 @@
 import React from "react";
-import Login from "./pages/Login";
-import Course1 from "./pages/Course1";
-import Main from "./pages/Main";
-import MyPage from "./pages/MyPage";
-import Message from "./pages/Message";
-import Plms from "./pages/Plms";
-import Error from "./pages/Error";
+import Login from "./pages/Login.js";
+import Course1 from "./pages/Course1.js";
+import Main from "./pages/Main.js";
+import MyPage from "./pages/MyPage.js";
+import Message from "./pages/Message.js";
+import Plms from "./pages/Plms.js";
+import Error from "./pages/Error.js";
 import {Routes, Route} from "react-router-dom";
 
 function App() {
